@@ -140,5 +140,11 @@ input[type="submit"] {
    cursor: pointer;
    background-color: #333333;
 }  
+#input-age-verification {
+   align-items: center;
+   display: flex;
+   margin-bottom: 20px;
+   justify-content: center;
+}
 /* ===== STATE STYLES ======= */
 
