@@ -104,7 +104,7 @@ label {
 }
 /* ===== LAYOUT STYLES ====== */
 body {
-   font-family: 'Roboto','Arial', sans serif;
+   font-family: "Roboto","Arial", sans-serif;
    margin: 0;
    padding: 15px;
    background-color: #f0f0f0; /* add desired light grey background */
@@ -119,8 +119,11 @@ form {
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
    text-align: center;
 }
+h1 {
+   font-weight: bold;
+}
 input[type="text"], input[type="email"], textarea {
-   padding: 15px;
+   padding: 10px;
    width: 100%;
    background-color: #eaeaea;
    color: white;
@@ -147,4 +150,12 @@ input[type="submit"] {
    justify-content: center;
 }
 /* ===== STATE STYLES ======= */
-
+@media (max-width: 600px) {
+   form {
+      padding: 15px;
+   }
+   input[type="text"], input[type="email"], input[type="submit"], textarea {
+      padding: 12px;
+      font-size: 14px;
+   }
+}
