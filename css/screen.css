@@ -130,7 +130,7 @@ input[type="text"], input[type="email"], textarea {
    color: white;
    border: none;
    border-radius: 8px;
-   font-size: 10px;
+   font-size: 16px;
    cursor: pointer;
    box-sizing: border-box;
 }
