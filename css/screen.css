@@ -123,7 +123,7 @@ input[type="text"], input[type="email"], textarea {
    background-color: #eaeaea;
    color: white;
    border: none;
-   border-radius: 10px;
+   border-radius: 8px;
    font-size: 15px;
    cursor: pointer;
 }
@@ -133,7 +133,7 @@ input[type="submit"] {
    padding: 15px;
    color: white;
    border: none;
-   border-radius: 10px;
+   border-radius: 8px;
    font-size: 15px;
    cursor: pointer;
    background-color: #333333;
