@@ -129,8 +129,9 @@ input[type="text"], input[type="email"], textarea {
    color: white;
    border: none;
    border-radius: 8px;
-   font-size: 15px;
+   font-size: 10px;
    cursor: pointer;
+   box-sizing: border-box;
 }
 /*Submit Style */
 input[type="submit"] {
@@ -142,7 +143,10 @@ input[type="submit"] {
    font-size: 15px;
    cursor: pointer;
    background-color: #333333;
-}  
+} 
+input[type="checkbox"] {
+   margin-right: 10px; /*adds space between checkbox and the age verification labeling */
+}
 #input-age-verification {
    align-items: center;
    display: flex;
