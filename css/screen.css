@@ -117,5 +117,26 @@ form {
    border-radius: 10px;
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
+input[type="text"], input[type="email"], textarea {
+   padding: 15px;
+   width: 100%;
+   background-color: #eaeaea;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+}
+/*Submit Style */
+input[type="submit"] {
+   width: 100%;
+   padding: 15px;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   background-color: #333333;
+}  
 /* ===== STATE STYLES ======= */
 
